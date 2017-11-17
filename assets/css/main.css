@@ -2213,6 +2213,24 @@
 				width: 100%;
 			}
 
+		.image.header {
+			display: inline-block;
+			margin: 0 1em 2em 0;
+			width: 50%;
+		}
+			.image.header img {
+				width: 100%;
+			}
+
+		.image.icon {
+			display: inline-block;
+			margin: 0 0 2em 1em;
+			width: 20%;
+		}
+			.image.icon img {
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
