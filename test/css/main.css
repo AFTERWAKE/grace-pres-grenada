@@ -2605,3 +2605,8 @@ nav a:hover {
 .switch-wrap p {
   margin: 0;
 }
+
+.main-logo {
+  height: auto;
+  width: 20%;
+}
