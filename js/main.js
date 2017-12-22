@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
 
-     
+
      // -------   Active Mobile Menu-----//
 
     $(".menu-bar").on('click', function(e){
@@ -21,7 +21,7 @@ $(document).ready(function(){
         $("span", this).toggleClass("lnr-menu lnr-cross");
         $(".main-menu").addClass('mobile-menu');
     });
-     
+
     $('select').niceSelect();
     $('.img-pop-up').magnificPopup({
         type: 'image',
@@ -51,7 +51,23 @@ $(document).ready(function(){
 
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
-    });      
+    });
     // -------   Mail Send ajax
 
  });
+
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(33.7578698,-89.7952329),
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		var marker = new google.maps.Marker({
+		          position: {
+								"lat" : 33.7579947,
+               	"lng" : -89.79484669999999
+            	},
+		          map: map
+		        });
+}
