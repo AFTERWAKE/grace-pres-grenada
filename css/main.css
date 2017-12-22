@@ -2372,3 +2372,15 @@ nav a:hover {
   height: auto;
   width: 20%;
 }
+
+.link-white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.link-white:hover {
+  color: white;
+}
+
+.link-white:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
