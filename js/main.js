@@ -33,10 +33,10 @@ $(document).ready(function(){
     $('.active-bottle-carousel').owlCarousel({
         items:1,
         loop:true,
-        nav: false,
+				touchDrag: true,
         autoplay: true,
-        autoplayTimeout:3000,
-        autoplayHoverPause:true
+        autoplayTimeout:2500,
+        autoplayHoverPause:false
     });
 
     $('.play-btn').magnificPopup({
