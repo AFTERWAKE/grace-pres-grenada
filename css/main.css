@@ -2392,3 +2392,8 @@ nav a:hover {
 .link-white:visited {
   color: rgba(255, 255, 255, 0.5);
 }
+
+.header-logo {
+  height: auto;
+  width: 40%;
+}
