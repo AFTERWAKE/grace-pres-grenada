@@ -2397,3 +2397,15 @@ nav a:hover {
   height: auto;
   width: 40%;
 }
+
+.ministry-page-video {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.ministry-page-video a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
