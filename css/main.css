@@ -2398,6 +2398,11 @@ nav a:hover {
   width: 40%;
 }
 
+.header-logo-larger {
+  height: auto;
+  width: 60%;
+}
+
 .ministry-page-video {
   padding: 100px 0;
   text-align: center;
