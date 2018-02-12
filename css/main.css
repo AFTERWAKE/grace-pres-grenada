@@ -2031,7 +2031,7 @@ nav a:hover {
 }
 
 .video-area .video-content {
-  padding: 200px 0;
+  padding: 75px 0;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -2039,7 +2039,7 @@ nav a:hover {
 
 .video-area .video-content a {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .skill-area {
@@ -2417,4 +2417,8 @@ nav a:hover {
 
 .you-are-here {
   color: var(--bg-color);
+}
+
+.padding-top-75 {
+  padding: 75px 0px;
 }
