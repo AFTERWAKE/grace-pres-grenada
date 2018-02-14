@@ -161,7 +161,6 @@
 	.studio-thumb {
 		border-radius: 3px;
 		overflow: hidden;
-		display: inline-block;
 	}
 	.studio-content {
 		@include media-breakpoint-down(xs) {
