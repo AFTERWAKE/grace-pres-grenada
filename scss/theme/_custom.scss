@@ -1,0 +1,47 @@
+
+.main-logo {
+  height: auto;
+  width: 20%;
+}
+
+.link-white {
+  color: rgba($white, 0.7);
+}
+
+.link-white:hover {
+  color: white;
+}
+
+.link-white:visited {
+  color: rgba($white, 0.5);
+}
+
+.header-logo {
+  height: auto;
+  width: 40%;
+}
+
+.header-logo-larger {
+  height: auto;
+  width: 60%;
+}
+
+.ministry-page-video {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.ministry-page-video a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.you-are-here {
+  color: $primary-color;
+}
+
+.padding-top-75 {
+  padding: 75px 0px;
+}
