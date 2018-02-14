@@ -2884,3 +2884,10 @@ nav a:hover {
 .padding-top-75 {
   padding: 75px 0px;
 }
+
+/* line 49, ../scss/theme/_custom.scss */
+.ie-compatibility {
+  color: white;
+  font-size: 25pt;
+  margin-top: 50px;
+}
