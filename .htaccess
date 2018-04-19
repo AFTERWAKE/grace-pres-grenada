@@ -2,6 +2,12 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
+RewriteCond %{HTTP_HOST} ^www.gracems.net$ [NC]
+RewriteRule ^(.*)$ http://graceforgrenada.org/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^gracems.net$ [NC]
+RewriteRule ^(.*)$ http://graceforgrenada.org/$1 [R=301,L]
+
 RewriteCond %{HTTP_HOST} ^www.graceforgrenada.org$ [NC]
 RewriteRule ^(.*)$ http://graceforgrenada.org/$1 [R=301,L]
 
