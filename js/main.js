@@ -79,7 +79,11 @@ $(document).ready(function(){
 	    var pos = $id.offset().top;
 
 	    // animated top scrolling
-	    $('body, html').animate({scrollTop: pos}, 1000);
+			if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+				window.scrollTo(0)
+			} else {
+				$('body, html').animate({scrollTop: pos}, 1000);
+			}
 		});
 
 			// Scroll to Top button
