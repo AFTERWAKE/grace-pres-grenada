@@ -4,6 +4,24 @@
   width: 20%;
 }
 
+@media (max-width: 1200px) {
+  .main-logo {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-logo {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-logo {
+    width: 50%;
+  }
+}
+
 .link-white {
   color: rgba($white, 0.7);
 }
