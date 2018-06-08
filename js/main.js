@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 	    // animated top scrolling
 			if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-				window.scrollTo(0)
+				$(window).scrollTop(pos)
 			} else {
 				$('body, html').animate({scrollTop: pos}, 1000);
 			}
