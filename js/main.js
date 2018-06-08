@@ -103,10 +103,8 @@ $(document).ready(function(){
 			function checkBackToTop() {
 				var windowTop = window.scrollY || document.documentElement.scrollTop;
 				if ( windowTop > offset ) {
-					console.log("doot");
 					$('#backToTop').addClass('cd-top--show');
 				}  else {
-					console.log("doot2");
 					$('#backToTop').removeClass('cd-top--show cd-top--fade-out');
 				};
 				if ( windowTop > offsetOpacity ) {
